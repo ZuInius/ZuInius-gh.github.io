@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>The Olympics</title>
+</head>
+<body>
+  <header>
+    <h1>The Olympics</h1>
+    <nav>
+      <button id="overviewBtn">Overview</button>
+      <button id="historyBtn">History</button>
+      <button id="sportsBtn">Sports</button>
+      <button id="quizBtn">Mini-Game</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="overview" class="page active">
+      <div class="overview-content">
+      <h2>About This Website</h2>
+      <p>
+       Welcome to the Olympic Overview page! This site explores the rich history, sports, and global impact of the Olympic Games.
+       The Olympics is a prestigious international sporting event where athletes from all over the world come together to compete in various disciplines. 
+       Held every four years, the Games alternate between the Summer and Winter editions, showcasing a spirit of unity, excellence, and fair competition.
+
+       The Olympic Games celebrate not only athletic achievement but also cultural exchange, perseverance, and international cooperation. 
+       Whether it's the thrill of the 100-meter sprint, the precision of archery, or the grace of figure skating, each event highlights human potential at its peak.
+
+       Below you'll find a table of best performing nations at the most recent 2024 Paris Olympics in France as well as the countdown to the next Summer and Winter Olympics.
+      </p>
+    <h2>🗼 Paris 2024 Final Medal Table</h2>
+    <table class="medal-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Country</th>
+        <th>Gold</th>
+        <th>Silver</th>
+        <th>Bronze</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>United States</td><td>40</td><td>44</td><td>42</td><td>126</td></tr>
+      <tr><td>2</td><td>China</td><td>40</td><td>27</td><td>24</td><td>91</td></tr>
+      <tr><td>3</td><td>Great Britain</td><td>14</td><td>22</td><td>29</td><td>65</td></tr>
+      <tr><td>4</td><td>France</td><td>16</td><td>26</td><td>22</td><td>64</td></tr>
+      <tr><td>5</td><td>Australia</td><td>18</td><td>19</td><td>16</td><td>53</td></tr>
+      <tr><td>6</td><td>Japan</td><td>20</td><td>12</td><td>13</td><td>45</td></tr>
+      <tr><td>7</td><td>Netherlands</td><td>15</td><td>7</td><td>12</td><td>34</td></tr>
+      <tr><td>8</td><td>Italy</td><td>12</td><td>13</td><td>15</td><td>40</td></tr>
+      <tr><td>9</td><td>South Korea</td><td>13</td><td>9</td><td>10</td><td>32</td></tr>
+      <tr><td>10</td><td>Germany</td><td>12</td><td>13</td><td>8</td><td>33</td></tr>
+    </tbody>
+  </table>
+</div>
+      <div id="countdowns">
+      <h3>Countdown to the Next Olympics</h3>
+    <div class="countdown-container">
+    <a href="https://olympics.com/en/olympic-games/los-angeles-2028" target="_blank" class="countdown-box summer-box">
+      <h4>Summer Olympics (Los Angeles 2028)</h4>
+      <p id="summerCountdown">Loading...</p>
+    </a>
+
+    <a href="https://olympics.com/en/olympic-games/milano-cortina-2026" target="_blank" class="countdown-box winter-box">
+      <h4>Winter Olympics (Milan-Cortina 2026)</h4>
+      <p id="winterCountdown">Loading...</p>
+    </a>
+    </div>
+    </div>
+
+    </section>
+
+    <section id="history" class="page">
+    <div class="history-content">
+    <h2>The Origins of the Olympic Games</h2>
+    <p>
+    The Olympic Games originated in ancient Greece around 776 BCE in Olympia, where athletes competed to honor Zeus. 
+    These ancient Games were held every four years and continued for nearly 12 centuries.  
+    In 1896, the Olympic Games were revived in modern form by Baron Pierre de Coubertin, leading to what we now know as the modern Olympic Games — a celebration of international unity and athletic excellence.
+    </p>
+
+    <h2>Ancient vs Modern Olympics: Clearing the Misconception</h2>
+    <p>
+    A common misconception is that the modern Olympic Games are a continuation of the ancient Games. 
+    While inspired by the spirit and traditions of ancient Greece, the modern Olympics are a separate, newly established event that began in the late 19th century. 
+    They differ in scope, purpose, and structure but share a legacy of celebrating human athleticism.
+    </p>
+
+   <h2>Explore the Differences</h2>
+    <div id="olympicCards">
+      <div class="card" id="ancientCard">
+      <h3>Ancient Olympics</h3>
+      <button id="ancientBtn">🏛️ Learn More</button>
+      <div class="card-content" id="ancientContent">
+        <p>
+          The Ancient Olympic Games were religious festivals held in Olympia from 776 BCE. 
+          Only free Greek men were allowed to compete in a limited number of events such as wrestling, chariot racing, footraces, and pankration — a brutal mix of boxing and wrestling. 
+          These Games were deeply tied to the worship of Zeus, and victorious athletes were seen as heroes, receiving olive wreaths instead of medals. 
+          The events took place every four years and served as a unifying tradition for the many independent city-states of Greece, which often were in conflict with one another.
+        </p>
+        <p>
+          The inaugural edition of the Games in 776 BCE featured only a single event — a short footrace known as the stadion. 
+          Over time, more events were added, including the pentathlon and equestrian races, reflecting the Greeks' emphasis on physical strength, discipline, and military readiness. 
+          The purpose of the Games extended beyond athletic competition; they were religious rituals meant to honor Zeus and were accompanied by sacrifices, processions, and cultural displays.
+        </p>
+        <p>
+          The Ancient Olympics came to an end in 393 CE when the Roman Emperor Theodosius I banned all pagan festivals as part of the Empire’s Christianization efforts. 
+          With the decline of Greek city-states and the rise of Roman dominance, the original spirit of the Games faded. 
+          The legacy of the ancient Games, however, endured in cultural memory, laying the foundation for the modern revival over a millennium later.
+        </p>
+      </div>
+    </div>
+
+    <div class="card" id="modernCard">
+      <h3>Modern Olympics</h3>
+      <button id="modernBtn">🕊️ Learn More</button>
+      <div class="card-content" id="modernContent">
+        <p>
+          The Modern Olympic Games began in 1896 in Athens, Greece, thanks to the efforts of French educator Pierre de Coubertin. 
+          Inspired by the ideals of the ancient Greeks, he envisioned an international sporting event that could promote peace, education, and unity among nations. 
+          The first edition featured athletes from 14 countries competing in 9 sports, and though modest in scale compared to today, it marked the beginning of a global tradition.
+        </p>
+        <p>
+          The purpose of the modern Olympics is to bring the world together through friendly athletic competition. 
+          Unlike their ancient counterpart, the modern Games include both men and women, feature hundreds of events, and involve participants from over 200 nations. 
+          Athletes now compete not only for personal glory but also as representatives of their countries, with gold, silver, and bronze medals awarded to top performers.
+        </p>
+        <p>
+          Coubertin revived the Olympics not to replicate ancient customs but to channel their spirit into a contemporary context focused on peace and youth development. 
+          The Games evolved to include both Summer and Winter editions, and have introduced cultural and educational programs alongside sports. 
+          Through global broadcasts and international cooperation, the Olympics have become more than just a sporting event — they are a symbol of unity, resilience, and shared humanity.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+    </section>
+
+    <section id="sports" class="page">
+      <h2>Olympic Sports</h2>
+      <div class="sports-intro">
+  <h2>The Role of Sports in the Olympic Games</h2>
+  <p>
+    Sports lie at the heart of the Olympic Movement, showcasing the pinnacle of human physical achievement, discipline,
+    and international camaraderie. Through competition, athletes push boundaries—not just of performance, but of unity.
+    Every Olympic sport is backed by an international governing federation and honors the ideals of fair play, equality,
+    and global peace.
+  </p>
+</div>
+
+<div class="sports-evolution">
+  <h2>How Sports Are Added or Removed</h2>
+  <p>
+    Since the first modern Olympics in 1896, the Olympic programme has evolved constantly. Eligibility for inclusion
+    is governed by the IOC and requires an international federation, global participation, and event-size
+    Sport additions like skateboarding, surfing, and karate (Tokyo 2020) or breakdancing (Paris 2024 debut) are approved
+    via IOC sessions. Sports can also be dropped or reinstated; for example, baseball and softball were removed in 2005
+    but returned for 2020, while cricket and lacrosse are set to return in 2028.
+  </p>
+</div>
+
+<div id="sportsCards">
+<div class="card" id="summerSportsCard">
+  <h3>Summer Olympic Sports</h3>
+  <button onclick="toggleCard('summerSports')">📅 View Sports</button>
+  <div class="card-content" id="summerSportsContent">
+    <table class="sports-table">
+      <thead><tr><th>Sport</th><th>Introduced</th></tr></thead>
+      <tbody>
+        <tr><td>Aquatics (Swimming, Diving, Artistic Swimming, Water Polo)</td><td>1896</td></tr>
+        <tr><td>Archery</td><td>1900</td></tr>
+        <tr><td>Athletics</td><td>1896</td></tr>
+        <tr><td>Badminton</td><td>1992</td></tr>
+        <tr><td>Basketball & 3x3 Basketball</td><td>1936 (Basketball), 2020 (3x3)</td></tr>
+        <tr><td>Boxing</td><td>1904</td></tr>
+        <tr><td>Breaking</td><td>2024</td></tr>
+        <tr><td>Canoe / Kayak (Sprint & Slalom)</td><td>1936</td></tr>
+        <tr><td>Cycling (Road, Track, Mountain Bike, BMX Freestyle & Racing)</td><td>1896 (Road), others added later</td></tr>
+        <tr><td>Equestrian (Dressage, Eventing, Jumping)</td><td>1900</td></tr>
+        <tr><td>Fencing</td><td>1896</td></tr>
+        <tr><td>Football</td><td>1900</td></tr>
+        <tr><td>Golf</td><td>1900 (returned 2016)</td></tr>
+        <tr><td>Gymnastics (Artistic, Rhythmic, Trampoline)</td><td>1896 (Artistic), 1984 Rhythmic, 2000 Trampoline</td></tr>
+        <tr><td>Handball</td><td>1936 (returned 1972)</td></tr>
+        <tr><td>Judo</td><td>1964</td></tr>
+        <tr><td>Modern Pentathlon</td><td>1912</td></tr>
+        <tr><td>Rowing</td><td>1900 (cancelled 1896)</td></tr>
+        <tr><td>Rugby Sevens</td><td>2016</td></tr>
+        <tr><td>Sailing</td><td>1900</td></tr>
+        <tr><td>Shooting</td><td>1896</td></tr>
+        <tr><td>Skateboarding</td><td>2020</td></tr>
+        <tr><td>Sport Climbing</td><td>2020</td></tr>
+        <tr><td>Surfing</td><td>2020</td></tr>
+        <tr><td>Table Tennis</td><td>1988</td></tr>
+        <tr><td>Taekwondo</td><td>2000</td></tr>
+        <tr><td>Tennis</td><td>1896 (re-introduced 1988)</td></tr>
+        <tr><td>Triathlon</td><td>2000</td></tr>
+        <tr><td>Volleyball & Beach Volleyball</td><td>1964 (Volleyball), 1996 (Beach)</td></tr>
+        <tr><td>Weightlifting</td><td>1896</td></tr>
+        <tr><td>Wrestling (Freestyle & Greco-Roman)</td><td>1896 (Greco-Roman), 1904 Freestyle</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card" id="winterSportsCard">
+  <h3>Winter Olympic Sports</h3>
+  <button onclick="toggleCard('winterSports')">❄️ View Sports</button>
+  <div class="card-content" id="winterSportsContent">
+    <table class="sports-table">
+      <thead><tr><th>Sport</th><th>Introduced</th></tr></thead>
+      <tbody>
+        <tr><td>Alpine Skiing</td><td>1936</td></tr>
+        <tr><td>Biathlon</td><td>1960</td></tr>
+        <tr><td>Bobsleigh</td><td>1924</td></tr>
+        <tr><td>Cross-Country Skiing</td><td>1924</td></tr>
+        <tr><td>Curling</td><td>1998</td></tr>
+        <tr><td>Figure Skating</td><td>1908 (Summer), 1924 (Winter)</td></tr>
+        <tr><td>Freestyle Skiing</td><td>1992</td></tr>
+        <tr><td>Ice Hockey</td><td>1924</td></tr>
+        <tr><td>Luge</td><td>1964</td></tr>
+        <tr><td>Nordic Combined</td><td>1924</td></tr>
+        <tr><td>Short-Track Speed Skating</td><td>1992</td></tr>
+        <tr><td>Skeleton</td><td>2002 (returned after 1948)</td></tr>
+        <tr><td>Ski Jumping</td><td>1924</td></tr>
+        <tr><td>Ski Mountaineering</td><td>2026 debut</td></tr>
+        <tr><td>Snowboarding</td><td>1998</td></tr>
+        <tr><td>Speed Skating</td><td>1924</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+    </section>
+
+    <section id="quiz" class="page">
+      <h2>Olympics Mini-Game / Quiz</h2>
+      <section id="minigame">
+    <h2>🎯 Catch the Gold Medal!</h2>
+    <p>Click as many medals as you can in 20 seconds!</p>
+    <button id="startGameBtn">Start Game</button>
+    <p>Score: <span id="score">0</span></p>
+    <div id="gameArea"></div>
+      </section>
+
+      <section id="quizform">
+  <h2>📝 Olympic Knowledge Quiz</h2>
+  <div id="quizContainer">
+  <p id="quizQuestion"></p>
+  <div id="quizOptions"></div>
+  <button id="nextBtn">Next</button>
+  <button id="restartBtn" style="display: none;">Restart Quiz</button>
+  <p id="quizResult"></p>
+</div>
+</section>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lab02 | Cui Kang | 231222G</p>
+    <img src="images/qrcodeimg.png" alt="QR Code" width="120">
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
