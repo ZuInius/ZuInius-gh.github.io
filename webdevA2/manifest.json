@@ -1,0 +1,13 @@
+{ "name": "Olympics",
+"short_name": "OLY",
+"start_url": "index.html",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#00FF00",
+"icons": [
+{ "src": "images/icons8-olympics-64.png",
+"sizes": "192x192",
+"type": "image/png"
+}
+]
+}
