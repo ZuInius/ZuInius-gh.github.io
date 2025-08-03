@@ -79,10 +79,6 @@ footer {
   text-align: center;
 }
 
-.qr-desktop {
-  margin-top: 1rem;
-}
-
 .overview-content {
   margin-bottom: 2rem;
   color: inherit;
@@ -181,9 +177,6 @@ countdown-box::before {
   .countdown-container {
     flex-direction: row;
     justify-content: center;
-    .qr-desktop {
-    display: none;
-  }
   }
 
   .countdown-box {
@@ -209,6 +202,11 @@ countdown-box::before {
     width: 48%; /* Leave space between the cards */
   }
 }
+
+@media (max-width:800px){
+#qrCodeImg{display:none;}
+}
+/* History Page */
 
 .card-content {
   max-height: 0;
